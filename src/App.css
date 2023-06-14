@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  .logo{
+    width: 23em;
+    margin-top: 6em;
+    margin-left: 12em;
+  }
+  .main{
+    background-color: black;
+    height: 27em;
+    display: flex;
+  }
+  .main h2, .main h4{
+    color: white;
+  }
+  .main h2{
+    font-size: 28px;
+  }
+  .main h4{
+    font-weight: 300;
+    margin-bottom: 50px;
+  }
+  .reg{
+    margin-left: 5em;
+    margin-top: 10em;
+  }
+  .reg-btn{
+    background-color: #F7941D;
+    border: none;
+    padding: 1.5em 4em;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .sign-btn{
+    background-color: black;
+    color: #fff;
+    border: 1px solid white;
+    padding: 1.5em 3em;
+    margin-left: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .sign-btn a{
+    text-decoration: none;
+    color: white;
+  }
+  .about{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 1em;
+  
+  }
+  .abt-div{
+    /* background-color: url("./assets/image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background-color: aliceblue;
+    margin-top: -23.8px;
+    height: 22.5em;
+  }
+  .card-div{
+    display: flex;
+    margin-left: 5em;
+  }
+  .card{
+    background-color: white;
+    width: 15em;
+    height: 13em;
+    margin-left: 11em;
+    text-align: center;
+    padding-top: 1em;
+    border: 1px solid #DFE0EB;
+    padding-left: 1em;
+  }
+  .card p{
+    font-size: 12px;
+  }
+  .row label{
+    display: block;
+    font-weight: 700;
+    font-size: 12px;
+    color: #adadb3  ;
+    margin-left: 1em;
+    
+  }
+  .row{
+    margin-top: 1em;
+    margin-right: 1em;
+
+  }
+  .login-btn{
+    background-color: #F7941D;
+    padding: 1.3em 0.9em;
+    width: 41.8em;
+    border: none;
+    margin-top: 2em;
+    border-radius: 5px;
+    font-weight:bold;
+    color: white;
+    cursor: pointer;
+  }
+  .nav{
+    border-bottom: 1px solid #adadb388;
+  }
+  
+  .flex-reg{
+    display: flex;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #adadb388;
+  }
+  .steps{
+    border: 1px solid #adadb3;
+    margin-top: 3em;
+    margin-left: 20em;
+    width: 23em;
+    height: 22em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 10px;
+  }
+  .info{
+    border: 1px solid #adadb3;
+    margin-right: 10em;
+    margin-top: 3em;
+    margin-left: 3em;
+    width: 55em;
+    height: 31em;
+    padding-top: 1.5em;
+    padding-left: 3em;
+    /* padding-right: 2em;  */
+    border-radius: 10px;
+  }
+  .info h4{
+    margin-top: 1em;
+  }
+  
+  #restInput{
+    padding: 0.9em;
+    width: 40em;
+    border: 1px solid #DFE0EB;
+    margin-top: 3px;
+    background-color: #FCFDFE;
+    border-radius: 5px;
+    color: #adadb3;
+    margin-top: 1em;
+  }
+  #ownerDetails{
+    padding: 0.9em;
+    width: 18em;
+    border: 1px solid #DFE0EB;
+    margin-top: 3px;
+    background-color: #FCFDFE;
+    border-radius: 5px;
+    color: #adadb3;
+    margin-top: 1.3em;
+    margin-left: 0.5em;
+  }
+  .next-back{
+    width: 8em;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .back{
+    border: 2px solid #F7941D;
+    color: #F7941D;
+    font-size: 15px;
+    /* margin-left: 7em; */
+    background-color: white;
+    margin-top: 1em;
+  }
+  .next{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 76em;
+    border: none;
+    background-color: #F7941D;
+    
+  }
+  .nbr-picked{
+    background-color: #F7941D;
+    padding-top: 0.8em;
+    width: 3em;
+    height: 2.5em;
+    border-radius: 5em; 
+    text-align: center;
+    color: white;
+  }
+  .nbr{
+    background-color: #adadb3;
+    padding-top: 0.8em;
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 5em; 
+    text-align: center;
+    color: white;
+  }
+  .steps  h4{
+    margin-top: 2.5em;
+  }
+  .flex-steps{
+    display: flex;
+    margin-top: 2em;
+  }
+  .step{
+    /* margin-top: 0.2em; */
+    margin-left: 1em;
+  }
+  .step p{
+    font-size: 11px;
+    margin-top: 0.6em;
+    color: #adadb3;
+  }
+  .menu-items{
+    display: flex;
+    margin-top: 1em;
+  }
+  .menu-items div{
+    width: 3.8em;
+    padding: 1.5em 1.3em;
+    height: 1em;
+    border: 1px solid #adadb3;
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+    border-radius: 12px;
+    color: #F7941D;
+    cursor: pointer;
+  }
+  .menu-item.active{
+    background-color: #F7941D;
+    color: white;
+    border: none;
+  }
+  
+  
+  
